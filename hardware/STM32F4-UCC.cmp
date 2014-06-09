@@ -1,4 +1,39 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-04 BZR 4918)-product   date = mié 04 jun 2014 20:18:49 ART
+Cmp-Mod V01 Created by Cvpcb (2014-06-04 BZR 4918)-product   date = jue 05 jun 2014 10:16:08 ART
+
+BeginCmp
+TimeStamp = /538FC087/538FD10A;
+Reference = C1;
+ValeurCmp = 47pF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FD1D8;
+Reference = C2;
+ValeurCmp = 47pF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FC660;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FC7EA;
+Reference = C4;
+ValeurCmp = 4.7uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FC5B5;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = ;
+EndCmp
 
 BeginCmp
 TimeStamp = /538F871F;
@@ -54,6 +89,27 @@ TimeStamp = /538F8972;
 Reference = D8;
 ValeurCmp = LED;
 IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FCA04;
+Reference = D9;
+ValeurCmp = RX;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FCAF6;
+Reference = D10;
+ValeurCmp = TX;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FEAA4;
+Reference = J1;
+ValeurCmp = DB15;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -155,6 +211,132 @@ IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
+TimeStamp = /538FE166;
+Reference = R13;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FCF11;
+Reference = R14;
+ValeurCmp = 27;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FCF5E;
+Reference = R15;
+ValeurCmp = 27;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FC6F5;
+Reference = R16;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FC9A9;
+Reference = R17;
+ValeurCmp = 330;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FC9EA;
+Reference = R18;
+ValeurCmp = 330;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FF27C;
+Reference = R19;
+ValeurCmp = 240;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FF282;
+Reference = R20;
+ValeurCmp = 470;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FED58;
+Reference = R21;
+ValeurCmp = 240;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FEDA0;
+Reference = R22;
+ValeurCmp = 560;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FEDC2;
+Reference = R23;
+ValeurCmp = 1100;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FEED9;
+Reference = R24;
+ValeurCmp = 240;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FEEDF;
+Reference = R25;
+ValeurCmp = 560;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FEEE5;
+Reference = R26;
+ValeurCmp = 1100;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FF276;
+Reference = R27;
+ValeurCmp = 150;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FEB0B;
+Reference = R28;
+ValeurCmp = 150;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FE9D9/538FEED3;
+Reference = R29;
+ValeurCmp = 150;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FDDAB;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /538F90F3;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
@@ -179,6 +361,13 @@ BeginCmp
 TimeStamp = /538F9236;
 Reference = SW4;
 ValeurCmp = SW_PUSH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FC087/538FC0DE;
+Reference = U1;
+ValeurCmp = FT230X;
 IdModule  = ;
 EndCmp
 

@@ -1,6 +1,6 @@
-update=mié 04 jun 2014 20:31:35 ART
+update=dom 08 jun 2014 12:31:34 ART
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 [cvpcb]
@@ -81,3 +81,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=serial
+LibName33=oscillator-cmos-out-4
