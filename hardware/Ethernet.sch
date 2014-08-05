@@ -32,12 +32,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:serial
 LIBS:oscillator-cmos-out-4
+LIBS:con-yamaichi-cf-2
 LIBS:STM32F4-UCC-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""

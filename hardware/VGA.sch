@@ -32,12 +32,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:serial
 LIBS:oscillator-cmos-out-4
+LIBS:con-yamaichi-cf-2
 LIBS:STM32F4-UCC-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -339,4 +340,11 @@ Wire Wire Line
 	2450 3300 2550 3300
 Wire Wire Line
 	2550 3500 2450 3500
+Wire Wire Line
+	2550 3700 2450 3700
+NoConn ~ 4250 1850
+NoConn ~ 4250 2450
+NoConn ~ 4250 2550
+NoConn ~ 4250 2650
+NoConn ~ 4250 3050
 $EndSCHEMATC

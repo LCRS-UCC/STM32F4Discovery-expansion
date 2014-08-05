@@ -1,4 +1,4 @@
-update=dom 08 jun 2014 12:31:34 ART
+update=lun 04 ago 2014 23:06:11 ART
 version=1
 last_client=eeschema
 [general]
@@ -82,3 +82,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=serial
 LibName33=oscillator-cmos-out-4
+LibName34=con-yamaichi-cf-2

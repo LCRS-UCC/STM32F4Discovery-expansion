@@ -32,12 +32,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:serial
 LIBS:oscillator-cmos-out-4
+LIBS:con-yamaichi-cf-2
 LIBS:STM32F4-UCC-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -72,11 +73,7 @@ $EndComp
 Wire Wire Line
 	5550 4150 5450 4150
 Wire Wire Line
-	5450 4150 5450 4250
-Wire Wire Line
-	5450 4250 5450 4350
-Wire Wire Line
-	5450 4350 5450 4400
+	5450 4150 5450 4400
 Wire Wire Line
 	5450 4350 5550 4350
 Wire Wire Line
@@ -105,16 +102,12 @@ F 3 "" H 5450 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 4800 5450 4900
-Wire Wire Line
-	5450 4900 5450 4950
+	5450 4800 5450 4950
 Connection ~ 5450 4350
 Wire Wire Line
 	6250 4850 6250 4900
 Wire Wire Line
-	5450 4900 6250 4900
-Wire Wire Line
-	6250 4900 6350 4900
+	5450 4900 6350 4900
 $Comp
 L R R20
 U 1 1 538FC6F5
@@ -131,9 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 4500 7150 4700
 Wire Wire Line
-	4100 4000 4550 4000
-Wire Wire Line
-	4550 4000 4650 4000
+	4100 4000 4650 4000
 Wire Wire Line
 	4200 3700 4100 3700
 $Comp
@@ -172,11 +163,7 @@ $EndComp
 Wire Wire Line
 	4200 4400 4200 4300
 Wire Wire Line
-	4100 4300 4200 4300
-Wire Wire Line
-	4200 4300 4350 4300
-Wire Wire Line
-	4350 4300 4550 4300
+	4100 4300 4550 4300
 $Comp
 L GND #PWR26
 U 1 1 538FC8F9
@@ -189,13 +176,7 @@ F 3 "" H 2900 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 3700 2900 3850
-Wire Wire Line
-	2900 3850 2900 4150
-Wire Wire Line
-	2900 4150 2900 4300
-Wire Wire Line
-	2900 4300 2900 4450
+	2900 3700 2900 4450
 Wire Wire Line
 	2900 3700 3000 3700
 Wire Wire Line
@@ -264,9 +245,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 3650 7750 3600
 Wire Wire Line
-	7750 3600 7850 3600
-Wire Wire Line
-	7850 3600 7950 3600
+	7750 3600 7950 3600
 Wire Wire Line
 	7950 3600 7950 3650
 Connection ~ 7850 3600
@@ -293,9 +272,7 @@ F 3 "" H 4900 4000 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4100 3850 4350 3850
-Wire Wire Line
-	4350 3850 4650 3850
+	4100 3850 4650 3850
 Wire Wire Line
 	5150 3850 5550 3850
 Wire Wire Line
@@ -348,7 +325,7 @@ Wire Notes Line
 	4300 4400 4300 3700
 Text Notes 4950 4350 0    40   ~ 0
 Opcional
-Text HLabel 7150 3700 2    40   Input ~ 0
+Text HLabel 7150 3700 2    40   Output ~ 0
 TX
 Text HLabel 7150 3800 2    40   Input ~ 0
 RX
@@ -410,13 +387,7 @@ Connection ~ 6950 3200
 Wire Wire Line
 	7300 2550 7300 2500
 Wire Wire Line
-	7150 2500 7300 2500
-Wire Wire Line
-	7300 2500 7600 2500
-Wire Wire Line
-	7600 2500 7900 2500
-Wire Wire Line
-	7900 2500 8100 2500
+	7150 2500 8100 2500
 $Comp
 L C C?
 U 1 1 53D6BCD3
@@ -439,9 +410,7 @@ Wire Wire Line
 	7600 2950 7900 2950
 Connection ~ 7900 2950
 Wire Wire Line
-	7900 2850 7900 2950
-Wire Wire Line
-	7900 2950 7900 3000
+	7900 2850 7900 3000
 Connection ~ 5450 4900
 Connection ~ 6250 4900
 Wire Wire Line
@@ -453,27 +422,31 @@ Wire Wire Line
 Wire Wire Line
 	6950 2800 6950 3200
 Wire Wire Line
-	6550 3200 6950 3200
-Wire Wire Line
-	6950 3200 7300 3200
-Wire Wire Line
-	7300 3200 8300 3200
+	6550 3200 8300 3200
 Wire Wire Line
 	8300 4700 8300 4150
 Wire Wire Line
 	8300 3200 8300 3650
 Wire Wire Line
-	6250 2500 6550 2500
+	6250 2500 6750 2500
 Wire Wire Line
-	6550 2500 6750 2500
-Wire Wire Line
-	6250 2500 6250 2950
-Wire Wire Line
-	6250 2950 6250 3300
+	6250 2500 6250 3300
 Wire Wire Line
 	4200 2950 6250 2950
 Connection ~ 6250 2950
 Text HLabel 8100 2500 2    40   Input ~ 0
 5v_USB
 Connection ~ 7900 2500
+Text Label 5500 4150 2    40   ~ 0
+3.3v_FT
+Text Label 8050 3500 2    40   ~ 0
+3.3v_FT
+Wire Wire Line
+	7850 3600 7850 3500
+Wire Wire Line
+	7850 3500 8050 3500
+NoConn ~ 7050 3900
+NoConn ~ 7050 4000
+NoConn ~ 7050 4200
+NoConn ~ 4100 4150
 $EndSCHEMATC
