@@ -729,20 +729,20 @@ F 3 "" H 9700 5250 30  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Sheet
-S 1600 5200 550  1400
+S 2300 4900 550  1400
 U 538FE9D9
 F0 "VGA" 40
 F1 "VGA.sch" 40
-F2 "VGA_B1" I R 2150 5700 40 
-F3 "VGA_B0" I R 2150 5600 40 
-F4 "VGA_G2" I R 2150 6050 40 
-F5 "VGA_G1" I R 2150 5950 40 
-F6 "VGA_G0" I R 2150 5850 40 
-F7 "VGA_R2" I R 2150 6400 40 
-F8 "VGA_R1" I R 2150 6300 40 
-F9 "VGA_R0" I R 2150 6200 40 
-F10 "VGA_VS" I R 2150 5450 40 
-F11 "VGA_HS" I R 2150 5350 40 
+F2 "VGA_B1" I R 2850 5400 40 
+F3 "VGA_B0" I R 2850 5300 40 
+F4 "VGA_G2" I R 2850 5750 40 
+F5 "VGA_G1" I R 2850 5650 40 
+F6 "VGA_G0" I R 2850 5550 40 
+F7 "VGA_R2" I R 2850 6100 40 
+F8 "VGA_R1" I R 2850 6000 40 
+F9 "VGA_R0" I R 2850 5900 40 
+F10 "VGA_VS" I R 2850 5150 40 
+F11 "VGA_HS" I R 2850 5050 40 
 $EndSheet
 $Comp
 L POT RV2
@@ -791,6 +791,7 @@ F7 "MDC" I R 4800 5800 40
 F8 "TX_EN" I R 4800 5900 40 
 F9 "NRST" I R 4800 6000 40 
 F10 "OSCIN" I R 4800 6100 40 
+F11 "CRS_DV" I R 4800 5100 60 
 $EndSheet
 $Comp
 L ASMT-YTC2-0AA02 U1
@@ -1253,10 +1254,6 @@ Text Label 9500 2600 0    40   ~ 0
 3.3V_discovery
 Wire Wire Line
 	9400 2600 9500 2600
-Text Label 8150 4950 2    40   ~ 0
-PC6
-Text Label 8150 4800 2    40   ~ 0
-PC7
 Wire Wire Line
 	8150 4950 7900 4950
 Wire Wire Line
@@ -1309,40 +1306,40 @@ PC1
 Text Label 5050 5900 2    40   ~ 0
 PB11
 Text Label 5050 6000 2    40   ~ 0
-PB14
+PA5
 Text Label 5050 6100 2    40   ~ 0
-PC3
+PA1
 Wire Wire Line
-	2150 5700 2400 5700
+	2850 5400 3100 5400
 Wire Wire Line
-	2150 5600 2400 5600
-Text Label 2400 5600 2    40   ~ 0
+	2850 5300 3100 5300
+Text Label 3100 5300 2    40   ~ 0
 PE8
-Text Label 2400 5700 2    40   ~ 0
+Text Label 3100 5400 2    40   ~ 0
 PE9
 Wire Wire Line
-	2150 5950 2400 5950
+	2850 5650 3100 5650
 Wire Wire Line
-	2150 5850 2400 5850
-Text Label 2400 5850 2    40   ~ 0
+	2850 5550 3100 5550
+Text Label 3100 5550 2    40   ~ 0
 PE10
-Text Label 2400 5950 2    40   ~ 0
+Text Label 3100 5650 2    40   ~ 0
 PE11
 Wire Wire Line
-	2150 6300 2400 6300
+	2850 6000 3100 6000
 Wire Wire Line
-	2150 6200 2400 6200
-Text Label 2400 6200 2    40   ~ 0
+	2850 5900 3100 5900
+Text Label 3100 5900 2    40   ~ 0
 PE13
-Text Label 2400 6300 2    40   ~ 0
+Text Label 3100 6000 2    40   ~ 0
 PE14
 Wire Wire Line
-	2150 6050 2400 6050
-Text Label 2400 6050 2    40   ~ 0
+	2850 5750 3100 5750
+Text Label 3100 5750 2    40   ~ 0
 PE12
 Wire Wire Line
-	2150 6400 2400 6400
-Text Label 2400 6400 2    40   ~ 0
+	2850 6100 3100 6100
+Text Label 3100 6100 2    40   ~ 0
 PE15
 Text Label 5950 1550 0    40   ~ 0
 PB0
@@ -1355,38 +1352,12 @@ S 6200 2650 750  750
 U 53DF7B95
 F0 "SD-Card" 50
 F1 "SD-Card.sch" 50
-F2 "Dat1" I R 6950 3200 60 
-F3 "Dat0" I R 6950 3300 60 
-F4 "CLK" I R 6950 2750 60 
-F5 "CMD" I R 6950 2850 60 
-F6 "Dat3" I R 6950 3000 60 
-F7 "Dat2" I R 6950 3100 60 
-F8 "VCC_SD" I L 6200 2800 60 
+F2 "VCC_SD" I L 6200 2800 60 
+F3 "Dat0/MISO" I R 6950 2900 60 
+F4 "CLK/SCK" I R 6950 3250 60 
+F5 "CMD/MOSI" I R 6950 3000 60 
+F6 "Dat3/CS" I R 6950 3150 60 
 $EndSheet
-Wire Wire Line
-	6950 2850 7200 2850
-Wire Wire Line
-	6950 2750 7200 2750
-Text Label 7200 2750 2    40   ~ 0
-PC12
-Text Label 7200 2850 2    40   ~ 0
-PD2
-Wire Wire Line
-	6950 3100 7200 3100
-Wire Wire Line
-	6950 3000 7200 3000
-Text Label 7200 3000 2    40   ~ 0
-PC11
-Text Label 7200 3100 2    40   ~ 0
-PC10
-Wire Wire Line
-	6950 3300 7200 3300
-Wire Wire Line
-	6950 3200 7200 3200
-Text Label 7200 3200 2    40   ~ 0
-PC9
-Text Label 7200 3300 2    40   ~ 0
-PC8
 $Comp
 L +3.3V #PWR?
 U 1 1 53E06FD6
@@ -1403,15 +1374,15 @@ Wire Wire Line
 Wire Wire Line
 	6100 2800 6100 2750
 Wire Wire Line
-	2150 5450 2400 5450
+	2850 5150 3100 5150
 Wire Wire Line
-	2150 5350 2400 5350
-Text Label 2400 5350 2    40   ~ 0
+	2850 5050 3100 5050
+Text Label 3100 5050 2    40   ~ 0
 PB7
-Text Label 2400 5450 2    40   ~ 0
+Text Label 3100 5150 2    40   ~ 0
 PB8
 Text Label 9050 5250 0    40   ~ 0
-PA1
+PC2
 Text Label 9050 6150 0    40   ~ 0
 PA3
 Text Label 8700 3400 0    40   ~ 0
@@ -1420,22 +1391,46 @@ Text Label 8700 3700 0    40   ~ 0
 PE5
 Text Label 8700 4000 0    40   ~ 0
 PE6
-Text Label 8700 4300 0    40   ~ 0
+Text Label 7250 3150 2    40   ~ 0
 PE7
-Text Label 8850 800  0    40   ~ 0
-PD1
 Text Label 8850 1000 0    40   ~ 0
+PD1
+Text Label 8850 800  0    40   ~ 0
 PD0
-Text Label 8850 1200 0    40   ~ 0
-PD6
-Text Label 8850 1400 0    40   ~ 0
-PD7
 Text Label 8850 1600 0    40   ~ 0
-PD8
+PD6
 Text Label 8850 1800 0    40   ~ 0
+PD7
+Text Label 8150 4800 2    40   ~ 0
+PD8
+Text Label 8150 4950 2    40   ~ 0
 PD9
 Text Label 8850 2000 0    40   ~ 0
 PD10
 Text Label 8850 2200 0    40   ~ 0
 PD11
+Text Label 8850 1200 0    40   ~ 0
+PD2
+Text Label 8850 1400 0    40   ~ 0
+PD3
+Wire Wire Line
+	6950 3000 7250 3000
+Wire Wire Line
+	6950 2900 7250 2900
+Wire Wire Line
+	6950 3250 7250 3250
+Wire Wire Line
+	6950 3150 7250 3150
+Text Label 7250 3250 2    40   ~ 0
+PB10
+Text Label 8700 4300 0    40   ~ 0
+PE2
+Text Label 7250 3000 2    40   ~ 0
+PB15
+Text Label 7250 2900 2    40   ~ 0
+PB14
+Wire Wire Line
+	4800 5100 5050 5100
+Text Label 5050 5100 2    40   ~ 0
+PA7
 $EndSCHEMATC

@@ -738,4 +738,11 @@ Wire Wire Line
 Wire Wire Line
 	3300 4500 3300 4550
 Connection ~ 3300 4550
+Text HLabel 3500 3800 0    40   Input ~ 0
+CRS_DV
+Wire Wire Line
+	3500 3800 3600 3800
+Wire Wire Line
+	3600 3800 3600 3900
+Connection ~ 3600 3900
 $EndSCHEMATC
