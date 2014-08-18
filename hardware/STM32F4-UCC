@@ -1,0 +1,20 @@
+qty,partname,description,lib
+C,Condensateur non polarise,device
+CPsmall,,device
+Csmall,,device
+INDUCTOR_SMALL,,device
+LED,,device
+MOS_P,,device
+POT,Potentionmetre,device
+R,Resistance,device
+SW_PUSH,Push Button,device
+DB15,,conn
+RJ45-TRANSFO,RJ45 with transformer + leds WURTH,conn
+USB-MINI-B,USB Mini B connector,conn
+LM317H,LM317H, 0.5A 35V Adjustable Linear Regulator, TO-39,regul
+DP83848C,DP83848C, MII/RMII Single 10/100Mbps Ethernet Physical Layer Transciever, LQFP48,interface
+ASMT-YTC2-0AA02,Triple LED RVB (Avago Technology),opto
+FT230X,,serial
+OSCILLATOR-VDD-4,,oscillator-cmos-out-4
+MMCMMC,,con-yamaichi-cf-2
+CONN_02X25,,STM32F4-UCC-cache

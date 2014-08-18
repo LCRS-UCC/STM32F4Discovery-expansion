@@ -1,3 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PLCC4
+D Triple LED RVB (Avago Technology)
+F http://www.avagotech.com/docs/AV02-2589EN
+$ENDCMP
+#
+$CMP RJ45-TRANSFO
+D RJ45 with transformer + leds WURTH
+K RJ45
+$ENDCMP
+#
+$CMP RJ45-TRANSFO_W
+D RJ45 with transformer + leds WURTH
+K RJ45
+$ENDCMP
+#
+$CMP SW_PUSH_2
+D Push Button
+K Switch
+$ENDCMP
+#
 #End Doc Library

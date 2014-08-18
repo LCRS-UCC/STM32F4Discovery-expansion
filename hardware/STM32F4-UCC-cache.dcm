@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM117H
+D LM117H, 0.5A 35V Adjustable Linear Regulator, TO-39
+K Adjustable Voltage Regulator 0.5A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP LM317AH
+D LM317AH, 0.5A 35V Adjustable Linear Regulator, TO-39
+K Adjustable Voltage Regulator 0.5A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP LM317H
+D LM317H, 0.5A 35V Adjustable Linear Regulator, TO-39
+K Adjustable Voltage Regulator 0.5A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP MSP1825S-3302E
+D LM317H, 0.5A 35V Adjustable Linear Regulator, TO-39
+K Adjustable Voltage Regulator 0.5A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+#End Doc Library
