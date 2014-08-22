@@ -544,8 +544,8 @@ L CPsmall C18
 U 1 1 5394A1E8
 P 6350 4800
 F 0 "C18" H 6375 4850 30  0000 L CNN
-F 1 "10uF" H 6375 4725 30  0000 L CNN
-F 2 "Capacitors_ThroughHole:Capacitor5x11RM2.5" H 6350 4800 60  0001 C CNN
+F 1 "10uF (tantalio)" H 6375 4725 30  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 6350 4800 60  0001 C CNN
 F 3 "" H 6350 4800 60  0000 C CNN
 	1    6350 4800
 	1    0    0    -1  

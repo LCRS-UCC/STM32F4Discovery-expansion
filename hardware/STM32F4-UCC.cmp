@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-12 BZR 5067)-product   date = lun 18 ago 2014 14:16:40 ART
+Cmp-Mod V01 Created by Cvpcb (2014-08-12 BZR 5067)-product   date = jue 21 ago 2014 18:05:07 ART
 
 BeginCmp
 TimeStamp = /538FC087/53E6BE04;
@@ -54,13 +54,6 @@ TimeStamp = /538FC087/53D6BCD3;
 Reference = C8;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:c_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /538FC087/538FC7EA;
-Reference = C9;
-ValeurCmp = 4.7uF;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
 EndCmp
 
 BeginCmp
@@ -122,8 +115,8 @@ EndCmp
 BeginCmp
 TimeStamp = /539471FA/5394A1E8;
 Reference = C18;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+ValeurCmp = 10uF (tantalio);
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
 EndCmp
 
 BeginCmp
