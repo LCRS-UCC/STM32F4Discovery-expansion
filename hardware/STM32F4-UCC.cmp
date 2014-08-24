@@ -1,38 +1,38 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-12 BZR 5067)-product   date = jue 21 ago 2014 18:05:07 ART
+Cmp-Mod V01 Created by Cvpcb (2014-08-12 BZR 5067)-product   date = sáb 23 ago 2014 18:51:30 ART
 
 BeginCmp
 TimeStamp = /538FC087/53E6BE04;
 Reference = C1;
 ValeurCmp = 10nf;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FC087/538FD10A;
 Reference = C2;
 ValeurCmp = 47pF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FC087/538FD1D8;
 Reference = C3;
 ValeurCmp = 47pF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FC087/538FC660;
 Reference = C4;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FC087/53E6BEF0;
 Reference = C5;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
@@ -46,70 +46,70 @@ BeginCmp
 TimeStamp = /538FC087/53D6B91B;
 Reference = C7;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FC087/53D6BCD3;
 Reference = C8;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /539471FA/53949CA7;
 Reference = C10;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /539471FA/53E6C414;
 Reference = C11;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /539471FA/53949D42;
 Reference = C12;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /539471FA/53E6C41F;
 Reference = C13;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /539471FA/53949D71;
 Reference = C14;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /539471FA/53E6C42A;
 Reference = C15;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /539471FA/5394905D;
 Reference = C16;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /539471FA/5394927D;
 Reference = C17;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
@@ -123,14 +123,14 @@ BeginCmp
 TimeStamp = /539471FA/53E6C435;
 Reference = C19;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /539471FA/5394A4D6;
 Reference = C21;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
@@ -151,84 +151,84 @@ BeginCmp
 TimeStamp = /53DF7B95/53E03B3A;
 Reference = C24;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53E67E0F;
-Reference = D1;
-ValeurCmp = POWER;
-IdModule  = LEDs:LED-0805;
+IdModule  = w_Connectors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F871F;
-Reference = D2;
-ValeurCmp = L1;
-IdModule  = LEDs:LED-0805;
+Reference = D1;
+ValeurCmp = PD0;
+IdModule  = w_Connectors:Led_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F87EC;
-Reference = D3;
-ValeurCmp = L2;
-IdModule  = LEDs:LED-0805;
+Reference = D2;
+ValeurCmp = PD1;
+IdModule  = w_Connectors:Led_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F8898;
-Reference = D4;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
+Reference = D3;
+ValeurCmp = PD2;
+IdModule  = w_Connectors:Led_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F889E;
-Reference = D5;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
+Reference = D4;
+ValeurCmp = PD3;
+IdModule  = w_Connectors:Led_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F8960;
-Reference = D6;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
+Reference = D5;
+ValeurCmp = PD6;
+IdModule  = w_Connectors:Led_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F8966;
-Reference = D7;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
+Reference = D6;
+ValeurCmp = PD7;
+IdModule  = w_Connectors:Led_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F896C;
-Reference = D8;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
+Reference = D7;
+ValeurCmp = PD10;
+IdModule  = w_Connectors:Led_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F8972;
+Reference = D8;
+ValeurCmp = PD11;
+IdModule  = w_Connectors:Led_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E67E0F;
 Reference = D9;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-0805;
+ValeurCmp = ON;
+IdModule  = w_Connectors:Led_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FC087/538FCA04;
 Reference = D10;
 ValeurCmp = RX;
-IdModule  = LEDs:LED-0805;
+IdModule  = w_Connectors:Led_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FC087/538FCAF6;
 Reference = D11;
 ValeurCmp = TX;
-IdModule  = LEDs:LED-0805;
+IdModule  = w_Connectors:Led_0805;
 EndCmp
 
 BeginCmp
@@ -568,13 +568,6 @@ IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /539471FA/53F23776;
-Reference = R41;
-ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /539471FA/5394C371;
 Reference = R42;
 ValeurCmp = 10k;
@@ -731,42 +724,42 @@ EndCmp
 BeginCmp
 TimeStamp = /538FDDAB;
 Reference = RV1;
-ValeurCmp = POT;
+ValeurCmp = PC2;
 IdModule  = w_Connectors:POTE;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F90F3;
 Reference = SW1;
-ValeurCmp = BT1;
+ValeurCmp = PE4;
 IdModule  = w_switch:PCB_PUSH;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F91D1;
 Reference = SW2;
-ValeurCmp = BT2;
+ValeurCmp = PE5;
 IdModule  = w_switch:PCB_PUSH;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F9203;
 Reference = SW3;
-ValeurCmp = BT3;
+ValeurCmp = PE6;
 IdModule  = w_switch:PCB_PUSH;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F9236;
 Reference = SW4;
-ValeurCmp = BT4;
+ValeurCmp = PE2;
 IdModule  = w_switch:PCB_PUSH;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F24D6B;
 Reference = U1;
-ValeurCmp = PLCC4;
+ValeurCmp = RGB;
 IdModule  = w_Connectors:PLCC4;
 EndCmp
 
@@ -781,13 +774,13 @@ BeginCmp
 TimeStamp = /539471FA/53947305;
 Reference = U3;
 ValeurCmp = DP83848C;
-IdModule  = w_smd_lqfp:lqfp48;
+IdModule  = w_Connectors:lqfp48;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D54F53/53E687BD;
 Reference = U4;
-ValeurCmp = MSP1825S-3302E;
+ValeurCmp = MCP1825S-3302E;
 IdModule  = SMD_Packages:SOT-223;
 EndCmp
 
@@ -806,10 +799,10 @@ IdModule  = w_Connectors:Micro_USB_type_B;
 EndCmp
 
 BeginCmp
-TimeStamp = /539471FA/53F235E3;
+TimeStamp = /539471FA/53F90C4F;
 Reference = X1;
 ValeurCmp = 50Mhz;
-IdModule  = SMD_Packages:SOT-23-5;
+IdModule  = w_Connectors:crystal_fa128;
 EndCmp
 
 EndListe
