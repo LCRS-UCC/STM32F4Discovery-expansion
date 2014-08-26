@@ -1,4 +1,4 @@
-update=lun 18 ago 2014 13:24:43 ART
+update=lun 25 ago 2014 17:01:31 ART
 version=1
 last_client=kicad
 [general]
@@ -8,6 +8,26 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=STM32F4-UCC.net
+UseCmpFile=1
+PadDrill=1.6
+PadDrillOvalY=1.6
+PadSizeH=2.8
+PadSizeV=2.8
+PcbTextSizeV=1.00076
+PcbTextSizeH=1.00076
+PcbTextThickness=0.29972
+ModuleTextSizeV=1.00076
+ModuleTextSizeH=1.00076
+ModuleTextSizeThickness=0.14986
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.20066
+BoardOutlineThickness=0.14986
+ModuleOutlineThickness=0.14986
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -57,23 +77,3 @@ LibName32=serial
 LibName33=oscillator-cmos-out-4
 LibName34=con-yamaichi-cf-2
 LibName35=w_connectors
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=STM32F4-UCC.net
-UseCmpFile=1
-PadDrill=1.6
-PadDrillOvalY=1.6
-PadSizeH=2.8
-PadSizeV=2.8
-PcbTextSizeV=1.00076
-PcbTextSizeH=1.00076
-PcbTextThickness=0.29972
-ModuleTextSizeV=1.00076
-ModuleTextSizeH=1.00076
-ModuleTextSizeThickness=0.14986
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.20066
-BoardOutlineThickness=0.14986
-ModuleOutlineThickness=0.14986
