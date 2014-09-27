@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-12 BZR 5067)-product   date = lun 25 ago 2014 16:47:55 ART
+Cmp-Mod V01 Created by Cvpcb (2014-08-12 BZR 5067)-product   date = sáb 30 ago 2014 12:49:53 ART
 
 BeginCmp
 TimeStamp = /538FC087/53E6BE04;
@@ -39,7 +39,7 @@ BeginCmp
 TimeStamp = /538FC087/53E6BEFB;
 Reference = C6;
 ValeurCmp = 4.7uF;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+IdModule  = w_Connectors:Capacitor5x11RM2.5;
 EndCmp
 
 BeginCmp
@@ -137,14 +137,14 @@ BeginCmp
 TimeStamp = /53D54F53/53D552E9;
 Reference = C22;
 ValeurCmp = 4.7uF;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+IdModule  = w_Connectors:Capacitor5x11RM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D54F53/53D55294;
 Reference = C23;
 ValeurCmp = 1uF;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+IdModule  = w_Connectors:Capacitor5x11RM2.5;
 EndCmp
 
 BeginCmp
@@ -256,21 +256,21 @@ BeginCmp
 TimeStamp = /53EE1A87;
 Reference = JP1;
 ValeurCmp = Alimentacion;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+IdModule  = w_Connectors:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FC087/53EE2F1C;
 Reference = JP2;
 ValeurCmp = Alim Ext;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = w_Connectors:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FC087/53F1FBDC;
 Reference = JP3;
 ValeurCmp = G_MOS;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = w_Connectors:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -732,28 +732,28 @@ BeginCmp
 TimeStamp = /538F90F3;
 Reference = SW1;
 ValeurCmp = PE4;
-IdModule  = w_switch:PCB_PUSH;
+IdModule  = w_Connectors:PCB_PUSH;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F91D1;
 Reference = SW2;
 ValeurCmp = PE5;
-IdModule  = w_switch:PCB_PUSH;
+IdModule  = w_Connectors:PCB_PUSH;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F9203;
 Reference = SW3;
 ValeurCmp = PE6;
-IdModule  = w_switch:PCB_PUSH;
+IdModule  = w_Connectors:PCB_PUSH;
 EndCmp
 
 BeginCmp
 TimeStamp = /538F9236;
 Reference = SW4;
 ValeurCmp = PE2;
-IdModule  = w_switch:PCB_PUSH;
+IdModule  = w_Connectors:PCB_PUSH;
 EndCmp
 
 BeginCmp
