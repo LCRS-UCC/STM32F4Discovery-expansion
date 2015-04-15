@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F401VC -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\VB_WIN7_64\Desktop\a\a\semihosting -I..\..\..\..\..\Users\VB_WIN7_64\Desktop\a -I..\..\..\..\..\Users\VB_WIN7_64\Desktop\a\a\bsp -I..\..\..\..\..\Users\VB_WIN7_64\Desktop\a\a -I..\..\..\..\..\Users\VB_WIN7_64\Desktop\a\a\cmsis_boot -I..\..\..\..\..\Users\VB_WIN7_64\Desktop\a\a\cmsis -I..\..\..\..\..\Users\VB_WIN7_64\Desktop\a\a\cmsis_lib -I..\..\..\..\..\Users\VB_WIN7_64\Desktop\a\a\cmsis_lib\include">
+      <target file="syscalls.o" lastModified="148c9f8f80d">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="148c982358e"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="148c9f8f790">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="148b2b111f0"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="148c9f8f936">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="148b2b111f0"/>
+      </target>
+      <target file="printf.o" lastModified="148c9f8f703">
+         <source file="..\..\..\stdio\printf.c" lastModified="148c97fee51"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="148c9f8f7ce">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="148b2b111f0"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="148c9f8f609">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="148b2b111f0"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="148c9f8f5da">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="148b2b111f0"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="148c9f8f87a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="148b2b111f0"/>
+      </target>
+      <target file="main.o" lastModified="148c9fd2d72">
+         <source file="..\..\..\main.c" lastModified="148c9fcaaff"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="148c9f8f79f">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="148c91308f8"/>
+      </target>
+      <target file="semihosting.o" lastModified="148c9f8f59c">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="148c91308f8"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="148c9f8f6c5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="148b2b111f0"/>
+      </target>
+      <target file="bsp.o" lastModified="148c9f8f84b">
+         <source file="..\..\..\bsp\bsp.c" lastModified="148b2b111f0"/>
+      </target>
+      <target file="misc.o" lastModified="148c9f8f8b9">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="148b2b111f0"/>
+      </target>
+   </processor>
+</history>
